@@ -1,0 +1,74 @@
+.con{
+    display:inline-flex;
+    flex:1 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.bg{
+    
+    position:relative;
+    top:20%;
+}
+.menu{
+    position:relative;left:70%; top:30%;
+}
+.login_form{
+    position:relative;
+    opacity:2;
+}
+.image
+{
+    object-fit: cover;
+    max-width: 80%;
+}
+.operations button{
+    padding: 15px 35px;
+    display: block;
+    text-align: center;
+    border-bottom: 0px;
+}
+.operations a{
+    text-decoration: none;
+}
+
+#red{
+    background-color: transparent;
+    color: orangered;;
+    border-radius: 15px;
+    border: 2px solid orangered;;
+    width: 300px;
+    text-decoration: none;
+}
+
+#red:hover{
+    background-color: orangered;
+    color: white;
+}
+
+#blue{
+    background-color: transparent;
+    color: blue;
+    border-radius: 15px;
+    border: 2px solid blue;
+    width: 300px;
+    text-decoration: none;
+}
+
+#blue:hover{
+    background-color: blue;
+    color: white;
+}
+
+#green{
+    background-color: transparent;
+    color: green;
+    border-radius: 15px;
+    border: 2px solid green;
+    width: 300px;
+    text-decoration: none;
+}
+
+#green:hover{
+    background-color: green;
+    color: white;
+}
